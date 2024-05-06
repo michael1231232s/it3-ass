@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4e5aa15973.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="heads" id="mheads">
+                <a href="index.html">HOME</a> 
+                <a href="services.html">SERVICES</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="terms.html">TERMS OF SERVICES</a> 
+                <a href="contact.html">CONTACT US</a> 
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+        </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("mheads");
+          if (x.className === "heads") 
+          {
+            x.className += " responsive";
+          } 
+          else 
+          {
+            x.className = "heads";
+          }
+            }
+    </script>
+
+    <section class="section1">
+        <img src="mental.jpg" alt="image" class="img1">
+        <div class="home-introduction">
+            <h1>About MJJEF Mental Health Solutions</h1>
+            <p>At MJJEF Mental Health Solutions, our mission is to provide compassionate and effective mental health care to individuals and 
+              families. We understand that mental h ealth is a crucial aspect of overall well-being, and we are dedicated to supporting our clients on their journey to mental wellness.</p>
+        </div> 
+   
+        <div class="home-introduction">   
+              <h1>Our Approach</h1>
+             <p>We take a holistic approach to mental health care, recognizing the interconnectedness of mind, body, and spirit. 
+                Our team of experienced therapists and counselors works collaboratively with each client to develop personalized treatment plans tailored to their unique needs and circumstances.</p>
+        </div>
+        <div class="home-introduction">
+              <h1>Our Values</h1>  
+              <ul>
+                   <li>Compassion: We approach each client with empathy, understanding, and respect.</li>
+                   <li>Excellence: We are committed to providing the highest quality of care through evidence-based practices and ongoing professional development.</li>
+                   <li>Empowerment: We believe in empowering our clients to take an active role in their own healing and growth.</li>
+                   <li>Collaboration: We work collaboratively with clients, families, and other healthcare professionals to ensure comprehensive and coordinated care.</li>
+              </ul>
+        </div>
+        <div class="home-introduction">
+               <h1>Our Vision</h1>
+               <p>Our vision is to create a world where mental health is prioritized, stigma is eliminated, and all individuals have access to the care and support they need to thrive.</p>                           
+        </div>
+        
+    </section>

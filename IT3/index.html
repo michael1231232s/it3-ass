@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4e5aa15973.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="heads" id="mheads">
+                <a href="index.html">HOME</a> 
+                <a href="services.html">SERVICES</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="terms.html">TERMS OF SERVICES</a> 
+                <a href="contact.html">CONTACT US</a> 
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+        </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("mheads");
+          if (x.className === "heads") 
+          {
+            x.className += " responsive";
+          } 
+          else 
+          {
+            x.className = "heads";
+          }
+            }
+    </script>
+   
+    <section class="section1">
+        <div class="logo-container">
+            <h1>MJJEF MENTAL PROBLEM SOLUTIONS</h1>
+            <img src="logo.avif" alt="logo" width="180px" height="180px">
+        </div>
+
+        <div class="home-introduction">
+            <h1>Welcome to MJJEF Mental Health Solutions</h1>
+            <p>At MJEF Mental Health Solutions, we understand the challenges individuals face when dealing with mental health issues. That's why we're dedicated to providing practical solutions and support to help you overcome these obstacles and live a fulfilling life.
+                From coping strategies and self-care techniques to professional guidance and community support, we offer a comprehensive approach to addressing mental health concerns. Our goal is to empower you with the tools and resources you need to navigate your mental health journey with confidence and resilience.
+            </p>   
+        </div>
+        <div class="home-introduction">
+            <h1>Be a Member</h1>
+            <p>
+            Join us as we explore effective solutions for managing stress, anxiety, depression, and other mental health challenges. Together, we can break the stigma surrounding mental illness and foster a supportive environment where everyone can thrive mentally, emotionally, and socially.
+            </p>
+            <form action="login.html" method="post">
+            <button type="submit">SUBSCRIBE NOW</button>
+            </form>
+        </div>
+    </section>
+
+
+            
+</body>
+</html>
